@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">DropContact</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_settings">Settings</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="checkbox">Auto Sync</string>
+    <string name="backuppopup">When To Back Up</string>
+    <string name="facebook_app_id">1603342016635233</string>
+    <string name="APP_KEY">jfy46fokkmguj6e</string>
+    <string name="title_activity_home">Drop Contact</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+    <string name="allow">Allow us to sync your phonebook with dropbox account.</string>
+
+
+    <string name="title_activity_welcome">Home Screen</string>
+
+    <string name="slide_1_title">Contact Centralization</string>
+    <string name="slide_1_desc">Maintain all your contacts at one place. Keep them up-to-date &amp; safe.</string>
+
+    <string name="slide_2_title">Step 1 : Dropbox it is!</string>
+    <string name="slide_2_desc">All you need is a Dropbox Account to login with.</string>
+
+    <string name="slide_3_title">Step 2 : Just Synchronize!</string>
+    <string name="slide_3_desc">Upload, Download &amp; Synchronize all your contacts into the phonebook on one click.</string>
+
+</resources>
+

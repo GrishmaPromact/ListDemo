@@ -1,0 +1,69 @@
+apply plugin: 'com.android.application'
+apply plugin: 'io.fabric'
+
+android {
+    signingConfigs {
+        release {
+            keyAlias 'dropcontactksalias'
+            keyPassword 'grishma88239'
+            storeFile file('C:/Users/Grishma/AndroidStudioProjects/KeyStore/DropContactKS.jks')
+            storePassword 'grishma88239'
+        }
+    }
+    compileSdkVersion 26
+    buildToolsVersion '26.0.2'
+    defaultConfig {
+        applicationId "com.promact.dropcontact"
+        minSdkVersion 18
+        targetSdkVersion 24
+        versionCode 24
+        versionName "24.0"
+        lintOptions {
+            abortOnError false
+        }
+
+    }
+    buildTypes {
+        release {
+            shrinkResources true
+            minifyEnabled true
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+            buildConfigField 'Boolean', 'enableCrashlytics', 'true'
+            signingConfig signingConfigs.release
+        }
+        debug {
+            buildConfigField 'Boolean', 'enableCrashlytics', 'false'
+        }
+    }
+}
+
+repositories {
+    mavenCentral()
+    maven {
+        url 'https://maven.fabric.io/public'
+    }
+
+}
+dependencies {
+    compile fileTree(include: ['*.jar'], dir: 'libs')
+    testCompile 'junit:junit:4.12'
+    compile files('libs/App42_ANDROID_SDK_3.9.jar')
+    compile files('libs/json-simple-1.1.1.jar')
+    compile('com.crashlytics.sdk.android:crashlytics:2.6.5@aar') {
+        transitive = true;
+    }
+    compile 'com.android.support:appcompat-v7:24.2.1'
+    compile 'com.android.support:design:24.2.1'
+    compile 'com.android.support:support-v4:24.2.1'
+    compile 'jp.wasabeef:glide-transformations:2.0.1'
+    compile 'com.android.support:cardview-v7:24.2.1'
+    compile 'com.dropbox.core:dropbox-core-sdk:2.1.1'
+    compile 'com.squareup.picasso:picasso:2.5.0'
+    compile 'commons-codec:commons-codec:1.10'
+    compile 'com.amulyakhare:com.amulyakhare.textdrawable:1.0.1'
+    compile 'com.sothree.slidinguppanel:library:3.3.1'
+    compile 'com.elmargomez.typer:typerlib:1.0.0'
+    compile 'com.android.support:recyclerview-v7:24.2.1'
+    compile 'com.google.android.gms:play-services-analytics:10.0.1'
+}
+apply plugin: 'com.google.gms.google-services'

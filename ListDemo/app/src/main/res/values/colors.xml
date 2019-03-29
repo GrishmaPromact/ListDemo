@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#37A8D2  </color>
+    <color name="colorPrimaryDark">#1681A8 </color>
+    <color name="colorPrimaryLight">#B0E7F7 </color>
+    <color name="colorAccent">#F9C301 </color>
+    <color name="md_text">#df000000</color>
+    <color name="textcolordropcontact">#4B2507</color>
+    <color name="background">#3b5998</color>
+    <color name="textcolor">#ffffff</color>
+    <color name="indigo">#ffffff</color>
+    <color name="red">#ff0000</color>
+    <color name="backgroundtint">#80FFC107</color>
+    <color name="list_background">#A6000000</color>
+    <color name="list_item_title">#ffffff</color>
+    <color name="cancel">#80000000</color>
+    <color name="transperent_black">#80000000</color>
+    <color name="main_activity_background_color">#EEEEEE</color>
+
+    <!-- dots inactive colors -->
+    <color name="dot_dark_screen1">#F9C301</color>
+    <color name="dot_dark_screen2">#F9C301</color>
+    <color name="dot_dark_screen3">#F9C301</color>
+
+    <!-- dots active colors -->
+    <color name="dot_light_screen1">#80FFC107</color>
+    <color name="dot_light_screen2">#80FFC107</color>
+    <color name="dot_light_screen3">#80FFC107</color>
+
+    <array name="array_dot_active">
+        <item>@color/dot_light_screen1</item>
+        <item>@color/dot_light_screen2</item>
+        <item>@color/dot_light_screen3</item>
+    </array>
+
+    <array name="array_dot_inactive">
+        <item>@color/dot_dark_screen1</item>
+        <item>@color/dot_dark_screen2</item>
+        <item>@color/dot_dark_screen3</item>
+    </array>
+</resources>

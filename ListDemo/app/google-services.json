@@ -1,0 +1,38 @@
+{
+  "project_info": {
+    "project_number": "87118036199",
+    "project_id": "dropcontacts-167811"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:87118036199:android:b42fd81e367a567b",
+        "android_client_info": {
+          "package_name": "com.promact.dropcontact"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDFgZGfeTdiPbfYoKaz4f6bLuCQY2-ot5s"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 2,
+          "analytics_property": {
+            "tracking_id": "UA-99265998-1"
+          }
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 1
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
